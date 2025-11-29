@@ -1,4 +1,4 @@
-# 🏟️ 직관 GOAL (Jikguan GOAL) – Frontend
+# 직관 GOAL (Jikguan GOAL) – Frontend
 
 국내 스포츠(KBO, K리그, 농구, 배구) **대리 티켓팅 플랫폼**의 프론트엔드입니다.  
 사용자가 경기 정보를 확인하고, 좌석/인원 선택 후 결제를 진행하면  
