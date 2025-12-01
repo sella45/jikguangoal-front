@@ -4,7 +4,8 @@ import './App.css';
 
 /* Header Component */
 import Header from './assets/components/Header';
-
+import KakaoCallback from './pages/auth/Social/KakaoCallback'; 
+import NaverCallback from './pages/auth/Social/NaverCallback';
 /* Pages */
 import HomePage from './pages/main/home/HomePage';
 import TicketPage from './pages/main/ticket/TicketPage';
@@ -31,6 +32,8 @@ function App() {
             <Route path="/auth" element={<AuthPage />} />
             <Route path="/mypage" element={<MyPage />} />
             <Route path="/requests/:requestId" element={<RequestDetailPage />} />
+            <Route path="/auth/kakao/callback" element={<KakaoCallback />} />
+            <Route path="/auth/naver/callback" element={<NaverCallback />} />
           </Routes>
         </main>
 
